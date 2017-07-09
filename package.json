@@ -1,6 +1,6 @@
 {
   "name": "htsl-router-core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Common methods for htsl-router-*",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -34,7 +34,9 @@
   ],
   "author": "Gilles Coomans",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "path-to-regexp": "^1.7.0"
+  },
   "devDependencies": {
     "assert": "^1.4.1",
     "babel-cli": "^6.14.0",
